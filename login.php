@@ -101,11 +101,11 @@ $conn->close();
             cursor: pointer;
             width: 100%;
         }
-        .register-link {
+        .register-link, .forgot-password-link {
             text-align: center;
             margin-top: 15px;
         }
-        .register-link a {
+        .register-link a, .forgot-password-link a {
             color: #008CBA;
             text-decoration: none;
             font-weight: bold;
@@ -135,6 +135,9 @@ $conn->close();
         </form>
         <div class="register-link">
             <p>Don't have an account? <a href="register.php">Register</a></p>
+        </div>
+        <div class="forgot-password-link">
+            <p>Forgot your password? <a href="forgot_password.php">Click here</a> to reset it.</p>
         </div>
     </div>
 </body>
